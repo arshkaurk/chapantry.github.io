@@ -18,12 +18,12 @@ a:link {
 
 /* visited link */
 a:visited {
-  color: green;
+  color: brown;
 }
 
 /* mouse over link */
 a:hover {
-  color: hotpink;
+  color: green;
 }
 
 /* selected link */
