@@ -3,36 +3,61 @@ body {
     place-items: center;
    margin: 0;
   }
-h1 { text-align:center; color:rgb(61, 45, 21); font-size : 50px; font-family:'Franklin Gothic'; 
-}
-p {text-align:center; color:rgb(109, 54, 54); font-size : 20px; font-family:'Franklin Gothic Medium';
+
+  p1 { 
+    position: absolute;
+    text-align:center; 
+    color:rgb(61, 45, 21); 
+    font-size : 800px; 
+    font-family:'Franklin Gothic'; 
+    top: 0%;
+    margin: 30px;
+    font-weight: bold;
+  }
+  
+  p2 { 
+    text-align:center; 
+    color:rgba(61, 45, 21, 0.808); 
+    font-size : 700px; 
+    font-family:'Franklin Gothic'; 
+    top: 0%;
+    margin: 60px;
+    font-weight: bold;
+  }
+
+a { 
+  text-align:center; 
+  color:rgba(61, 45, 21, 0.808); 
+  font-size : 500px; 
+  font-family:'Franklin Gothic'; 
+  top: 0%;
+  margin: 100px;
+  font-weight: bold;
 }
 
-a {text-align:center; color:rgb(109, 54, 54); font-size : 20px; font-family:'Franklin Gothic Medium';
-}
 
 /* unvisited link */
 a:link {
-  color: red;
+  color: rgb(61, 45, 21);
 }
 
 /* visited link */
 a:visited {
-  color: brown;
+  color: rgb(61, 21, 21);
 }
 
 /* mouse over link */
 a:hover {
-  color: green;
+  color: red;
 }
 
 /* selected link */
 a:active {
-  color: blue;
+  color: green;
 }
 
 .cup {
-  position: absolute;
+  position: fixed;
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
@@ -46,7 +71,7 @@ a:active {
 
 .cup::before {
   content: '';
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
   height: 30px;
@@ -64,7 +89,7 @@ a:active {
 
 .cup:after {
   content: '';
-  position: absolute;
+  position: fixed;
   top: 48%;
   right: -50px;
   height: 90px;
@@ -76,4 +101,19 @@ a:active {
           box-sizing: border-box;
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
+}
+
+h1{
+	color: rgb(61, 45, 21);
+	margin-left:30px;
+  font-family: 'franklin Gothic';
+  font-size : 200px;
+}
+
+p{
+	font-family: 'franklin gothic',;
+	text-align: center;
+	color:rgb(61, 45, 21);
+	margin:80px;
+	padding:50px;
 }
