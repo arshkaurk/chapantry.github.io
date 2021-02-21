@@ -9,7 +9,7 @@ body {
     text-align:center; 
     color:rgb(61, 45, 21); 
     font-size : 800px; 
-    font-family:'Franklin Gothic'; 
+    font-family:'adobe garamond pro'; 
     top: 0%;
     margin: 30px;
     font-weight: bold;
@@ -19,7 +19,7 @@ body {
     text-align:center; 
     color:rgba(61, 45, 21, 0.808); 
     font-size : 700px; 
-    font-family:'Franklin Gothic'; 
+    font-family:'adobe garamond pro'; 
     top: 0%;
     margin: 60px;
     font-weight: bold;
@@ -29,7 +29,7 @@ a {
   text-align:center; 
   color:rgba(61, 45, 21, 0.808); 
   font-size : 500px; 
-  font-family:'Franklin Gothic'; 
+  font-family:'adobe garamond pro'; 
   top: 0%;
   margin: 100px;
   font-weight: bold;
@@ -106,12 +106,12 @@ a:active {
 h1{
 	color: rgb(61, 45, 21);
 	margin-left:30px;
-  font-family: 'franklin Gothic';
+  font-family: 'adobe garamond pro';
   font-size : 200px;
 }
 
 p{
-	font-family: 'franklin gothic',;
+	font-family: 'adobe garamond pro',;
 	text-align: center;
 	color:rgb(61, 45, 21);
 	margin:80px;
