@@ -26,12 +26,12 @@ body {
   }
 
 a { 
-  text-align:center; 
+  text-align:left; 
   color:rgba(61, 45, 21, 0.808); 
-  font-size : 500px; 
+  font-size : 100px; 
   font-family:'adobe garamond pro'; 
   top: 0%;
-  margin: 100px;
+  margin: 280px;
   font-weight: bold;
 }
 
@@ -48,7 +48,7 @@ a:visited {
 
 /* mouse over link */
 a:hover {
-  color: red;
+  color: rgb(116, 84, 38);
 }
 
 /* selected link */
@@ -103,11 +103,21 @@ a:active {
           transform: translateY(-50%);
 }
 
+
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
 h1{
 	color: rgb(61, 45, 21);
 	margin-left:30px;
   font-family: 'adobe garamond pro';
   font-size : 200px;
+  text-align: left;
 }
 
 p{
