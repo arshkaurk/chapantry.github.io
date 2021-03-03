@@ -207,7 +207,7 @@ p {
     transition-delay: 0s;
 }
 
-/*test*/
+/*test for button (worked!)*/
 .button {
     background-color: rgba(117, 60, 22, 0.575);
     border: none;
