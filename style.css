@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(212, 188, 123);
+    background-color: rgb(182, 102, 48);
     place-items: center;
    margin: 0;
   }
@@ -65,7 +65,7 @@ a:active {
           transform: translate(-50%, -50%);
   width: 150px;
   height: 160px;
-  background: rgb(182, 39, 39);
+  background: rgb(212, 188, 123);
   border-bottom-left-radius: 20px;
   border-bottom-right-radius: 20px;
   cursor: pointer;
@@ -79,8 +79,8 @@ a:active {
   height: 30px;
   width: 100%;
   border-radius: 50%;
-  background: orange;
-  border: 7px solid  rgb(182, 39, 39);
+  background: rgb(182, 102, 48);
+  border: 7px solid  rgb(212, 188, 123);
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   -webkit-transform: translateY(-50%);
@@ -100,7 +100,7 @@ a:active {
   width: 80px;
   border-radius: 50%;
   background: transparent;
-  border: 12px solid  rgb(182, 39, 39);
+  border: 12px solid  rgb(212, 188, 123);
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
   -webkit-transform: translateY(-50%);
